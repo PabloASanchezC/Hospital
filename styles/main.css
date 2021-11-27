@@ -9,6 +9,24 @@
     }
     /* para medida rem*/
 
+    header{
+        display: flex;
+        background-color: white;
+        height: 150px;
+    }
+
+    header div:nth-child(1){
+        background-color: white;
+    }
+    
+    header div:nth-child(1){
+
+    }
+
+    .logo_header{
+        height: 150px;
+    }
+
     body {
         background-color: lavender;
     }
