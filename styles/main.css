@@ -1,3 +1,10 @@
+:root{
+    --white2: #F4F4F2;
+    --red: #C85C5C;
+    --orange: #F9975D;
+    --yellow: #FBD148;
+    --green: #B2EA70;
+}
 * {
     box-sizing: border-box;
     margin: 0;
@@ -11,22 +18,54 @@
 
     header{
         display: flex;
+        justify-content: space-between;
         background-color: white;
         height: 150px;
     }
 
     header div:nth-child(1){
         background-color: white;
+        width: 240px;
     }
     
-    header div:nth-child(1){
-
+    nav{
+        display: flex;
+        justify-content: center;
+        background-color: white;
+        width: calc(100% - 240px);
     }
 
     .logo_header{
         height: 150px;
     }
 
+    .nav_list{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        list-style: none;
+        height: 150px;
+        width: 80px;
+    }
+
+    ul li{
+        text-align: center;
+    }
+
+    header nav a {
+        color: darkslategray;
+        text-decoration: none;
+        font: 1.4rem 'Outfit', sans-serif;
+        padding: 0.5rem;
+    }
+
+    header nav a:hover{
+        color: white;
+        background-color: var(--orange);
+        cursor: pointer;
+    }
+
     body {
-        background-color: lavender;
+        background-color: var(--white2);
     }
