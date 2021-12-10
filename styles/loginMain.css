@@ -1,0 +1,74 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.gcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 60vh;
+    background-color: white;
+    margin: 20px auto;
+    border-radius: 15px;
+}
+
+.titlecontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50vh;
+}
+
+main img{
+    width: 60px;
+}
+
+.textcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.textcontainer p {
+    font-size: 1.6rem;
+}
+
+.textcontainer h1 {
+    font: 2rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+.form label{
+    font-size: 1.6rem;
+    font-family: 'Bebas Neue';
+    margin: 10px 0 2px 6px;
+}
+
+.input {
+    background-color: whitesmoke;
+    border: none;
+    padding: 4px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+.primaryButton{
+    background-color: var(--orange);
+    color: var(--white2);
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    height: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+}

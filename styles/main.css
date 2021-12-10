@@ -64,7 +64,7 @@
         color: var(--white2);
         border-radius: 4px;
         padding: 1.5px;
-        font-size: 1.8rem;
+        font-size: 1.4rem;
         margin-left: 3px;
     }
 
@@ -83,6 +83,7 @@
 
     body {
         background-color: var(--white2);
+        font-family: 'Outfit', sans-serif;
     }
 
     footer {
