@@ -78,6 +78,7 @@
     header nav a:hover{
         color: white;
         background-color: var(--orange);
+        border-radius: 4px;
         cursor: pointer;
     }
 
