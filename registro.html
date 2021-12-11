@@ -4,9 +4,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Habacuc</title>
+    <link rel="shortcut icon" href="/img/logoHospital.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/registroMain.css">
+    <link rel="stylesheet" href="/styles/desktop.css" media="screen and (min-width: 641px)">
 </head>
 <body>
-    <h1>registro</h1>
+    <header>
+        <div><a href="./index.html"><img class="logo_header" src="./img/logoHospitalhblr.jpg" alt="logo institucional"></a></div>
+        <nav>
+            <ul class="nav_list">
+                <li><a class="login" href="./login.html">log in </a><a class="registro" href="./registro.html">registro</a></li>
+                <li><a href="./nosotros.html">Nosotros</a></li>
+                <li><a href="./directorio.html">Directorio</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+                <li><a href="./imc.html">IMC</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="gcontainer">
+            <div class="titlecontainer">
+                <a href="./index.html"><img src="./img/logoHospital.png" alt="logo"></a>
+                <div class="textcontainer">
+                    <h1>Registro</h1>
+                    <p>ingresa tus datos aquí</p>
+                </div>
+                <div class="formcontainer">
+                    <form action="/" class="form">
+                        <label for="user" class="user">Email o teléfono</label>
+                        <input type="text" id="user" class=" input inputUser" placeholder="@example o xx-xxx-xxx">
+                        <label for="user" class="user">Crea tu usuario</label>
+                        <input type="text" id="user" class=" input inputUser" placeholder="user123">
+                        <label for="passwrd" class="password">crea tu nueva contraseña</label>
+                        <input type="password" class=" input inputPassword" id="passwrd" placeholder="*********">
+                        <label for="passwrd" class="password">repite tu nueva contraseña</label>
+                        <input type="password" class=" input inputPassword" id="passwrd" placeholder="*********">
+                        <input type="submit" value="Crear cuenta" class="primaryButton loginButton">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+
 </body>
 </html>
