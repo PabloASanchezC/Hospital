@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/IMCMain.css">
     <link rel="stylesheet" href="/styles/desktop.css" media="screen and (min-width: 641px)">
 </head>
 <body>
@@ -17,6 +18,7 @@
         <div><a href="./index.html"><img class="logo_header" src="./img/logoHospitalhblr.jpg" alt="logo institucional"></a></div>
         <nav>
             <ul class="nav_list">
+                <li><a class="login" href="./login.html">log in </a><a class="registro" href="./registro.html">registro</a></li>
                 <li><a href="./nosotros.html">Nosotros</a></li>
                 <li><a href="./directorio.html">Directorio</a></li>
                 <li><a href="./contacto.html">Contacto</a></li>
@@ -25,11 +27,25 @@
         </nav>
     </header>
     <main>
-        <h1>IMC</h1>
+        <h1>Calcula tu IMC</h1>
+        <section class="IMCCard">
+            <a href="./index.html"><img src="./img/logoHospital.png" alt="logo"></a>
+            <form>
+                <label for="peso">coloca aquí tu peso en Kg</label>
+                <input id="peso" type="number" placeholder="Kg">
+                <label for="altura">coloca aquí tu altura en m</label>
+                <input id="altura" type="number" placeholder="m">
+                <button class="primaryButton" type="button" onclick="IMCAplicada()">Calcular</button>
+                <p id="IMCcheck"></p>
+                <p id="bajo"></p>
+                <p id="medio"></p>
+                <p id="alto"></p>
+            </form>
+        </section>
     </main>
     <footer>
 
     </footer>
-
+        <script src="./scripts/IMC.js"></script>
 </body>
 </html>

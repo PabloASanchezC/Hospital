@@ -1,0 +1,82 @@
+main {
+    margin: 15px 0;
+    color: #678544;
+}
+
+.IMCCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 800px;
+    height: 70vh;
+    margin: 20px 0;
+    padding: 20px 0;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.IMCCard img {
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+.IMCCard form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    height: 80%;
+    font-size: 1.6rem;
+    max-width: 220px;
+}
+
+.IMCCard input {
+    text-align: right;
+    padding-right: 3px;
+    margin-bottom: 10px;
+}
+
+.IMCCard input::placeholder {
+    color: rgb(0, 0, 0, 0.25);
+}
+
+.IMCCard input:focus-visible {
+    outline-color: var(--orange);
+}
+
+.primaryButton{
+    background-color: var(--orange);
+    color: var(--white2);
+    font-size: 1.6rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    width: 120px;
+    height: 30px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.IMCCard p {
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2px;
+}
+
+#bajo {
+    background-color: rgb(128, 184, 230);
+    color: #202020;
+    border-radius: 3px;
+    box-shadow: 0px 7px 10px -2px rgba(0,0,0,0.2);
+}
+
+#alto {
+    background-color: var(--red);
+    color: #dddddd;
+    border-radius: 3px;
+    box-shadow: 0px 7px 10px -2px rgba(0,0,0,0.2);
+}

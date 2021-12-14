@@ -120,6 +120,7 @@
         /* text-align: right; */
         align-self: center;
         margin-top: 100px;
+        margin-left: 5px;
     }
 
     main .contact{
@@ -140,6 +141,19 @@
 
     .contact .token img{
         width: 75%;
+    }
+
+    .Calculo {
+        background-color: var(--red);
+        margin: 10px 10px 20px 50px;
+        padding: 5px;
+        border-radius: 3px;
+        align-self: flex-start;
+    }
+
+    .Calculo a {
+        text-decoration: none;
+        color: var(--white2);
     }
 
     footer {
