@@ -66,17 +66,3 @@ main {
     text-align: center;
     margin-bottom: 2px;
 }
-
-#bajo {
-    background-color: rgb(128, 184, 230);
-    color: #202020;
-    border-radius: 3px;
-    box-shadow: 0px 7px 10px -2px rgba(0,0,0,0.2);
-}
-
-#alto {
-    background-color: var(--red);
-    color: #dddddd;
-    border-radius: 3px;
-    box-shadow: 0px 7px 10px -2px rgba(0,0,0,0.2);
-}
