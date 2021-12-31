@@ -1,6 +1,4 @@
-function IMC(peso, altura) {
-    return (peso / (altura**2));
-}
+const IMC = (peso, altura) => peso / (altura**2);
 
 function IMCAplicada() {
     const InputPeso = document.getElementById("peso");
@@ -24,4 +22,3 @@ function IMCAplicada() {
         imcAlta.style.color = "red"
     }
 }
-
