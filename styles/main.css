@@ -27,21 +27,42 @@
         background-color: white;
         width: 240px;
     }
-    
-    nav{
+    /* ultimas modificaciones */
+    .headerNav {
         display: flex;
         justify-content: center;
-        background-color: white;
+        background-image: url(../img/iconsmedia/iconmonstr-menu-2.svg);
+        background-position-y: center;
+        background-position-x: calc(100% - 48px);
+        background-repeat: no-repeat;
+        background-size: 40px;
         width: calc(100% - 240px);
         position: fixed;
         right: 0;
         border-radius: 10px;
         height: 150px;
+        /* margin-right: 48px; */
         /* align-self:flex-start; */
         align-items:center;
+        /* z-index: 1; */
+    }
+
+    .headerNav:hover{
+        background-image: none;
+    }
+
+    .nav_list li{
+        display: none;
+    }
+    
+    
+    .nav_list li:hover {
+        display: list-item;
+        position: relative;
         z-index: 1;
     }
 
+    /* aqui termina */
     .logo_header{
         height: 150px;
     }
